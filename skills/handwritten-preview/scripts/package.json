@@ -1,0 +1,9 @@
+{
+  "name": "handwritten-preview-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate a handwriting-style preview report docx from a JSON config",
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}

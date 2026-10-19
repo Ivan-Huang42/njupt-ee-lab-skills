@@ -1,0 +1,9 @@
+* Thevenin - short circuit current
+V1 L 0 5
+R1 L J 200
+R2 J A 400
+R3 J 0 1000
+Vsc A 0 0
+.dc V1 4.999 5.001 0.001
+.meas dc ISC FIND I(Vsc) AT=5
+.end

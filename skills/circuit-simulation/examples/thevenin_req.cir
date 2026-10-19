@@ -1,0 +1,9 @@
+* Thevenin - equivalent resistance, V1 shorted, 1A test current
+V1 L 0 0
+R1 L J 200
+R2 J A 400
+R3 J 0 1000
+I1 0 A 1
+.dc I1 0.999 1.001 0.001
+.meas dc REQ FIND V(A) AT=1
+.end

@@ -1,0 +1,18 @@
+* superposition - Us2 only, Us1 shorted
+V1 A 0 0
+R1 A B 200
+R2 B C 200
+R3 A C 100
+R4 B 0 220
+R5 C E 100
+V2 E 0 6
+.dc V2 5.999 6.001 0.001
+.meas dc I_R1 FIND I(R1) AT=6
+.meas dc I_R2 FIND I(R2) AT=6
+.meas dc I_R3 FIND I(R3) AT=6
+.meas dc I_R4 FIND I(R4) AT=6
+.meas dc I_R5 FIND I(R5) AT=6
+.meas dc U_AB FIND V(A,B) AT=6
+.meas dc U_BC FIND V(B,C) AT=6
+.meas dc U_BD FIND V(B) AT=6
+.end

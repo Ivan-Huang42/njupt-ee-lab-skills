@@ -1,0 +1,9 @@
+{
+  "name": "preview-report-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate a lab preview report docx from a JSON config",
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}

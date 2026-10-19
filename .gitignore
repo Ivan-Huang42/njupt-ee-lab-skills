@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 生成物
+*.docx
+*.pdf
+*.log
+*.raw
+*.op.raw
+*.fft
+*.db
+*.tmp
+sim_result*.json
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 本地配置与隐私
+*.local.json
